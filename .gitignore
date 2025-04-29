@@ -169,3 +169,15 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+
+# Ignore large data files
+*.csv
+
+# Or more specifically:
+data/raw/
+data/interim/
+data/processed/
+
+# Optional: MacOS specific files
+.DS_Store
