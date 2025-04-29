@@ -174,10 +174,10 @@ cython_debug/
 # Ignore large data files
 *.csv
 
-# Or more specifically:
+# Ignore raw and processed data (especially large files)
 data/raw/
 data/interim/
 data/processed/
 
-# Optional: MacOS specific files
+# macOS hidden files
 .DS_Store
